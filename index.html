@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <div class="calculator_body">
+        <div class="heading">Calculator</div>
+        <div class="display">
+            <input type="text" class="displayView" autofocus>
+        </div>
+        <div class="buttons">
+            <div class="top">
+                <button onclick="Ac()" style="background-color: rgb(190, 111, 80);">AC</button>
+                <button onclick="del()">DEL</button>
+                <button onclick="percentage()">%</button>
+                <button onclick="divide()">/</button>
+            </div>
+
+            <div class="top2">
+                <button onclick="seven()">7</button>
+                <button onclick="eight()">8</button>
+                <button onclick="nine()">9</button>
+                <button onclick="multiply()">x</button>
+            </div>
+            <div class="middle">
+                <button onclick="four()">4</button>
+                <button onclick="five()">5</button>
+                <button onclick="six()">6</button>
+                <button onclick="sub()">-</button>
+            </div>
+            <div class="bottom">
+                <button onclick="one()">1</button>
+                <button onclick="two()">2</button>
+                <button onclick="three()">3</button>
+                <button onclick="add()">+</button>
+            </div>
+
+            <div class="bottom2">
+                <button onclick="zero()">0</button>
+                <button onclick="point()">.</button>
+                <button onclick="doubleZero()">00</button>
+                <button onclick="equalTo()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+
+</body>
+
+</html>
